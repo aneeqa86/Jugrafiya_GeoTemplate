@@ -1,0 +1,22 @@
+{
+    "name": "Jugrafiya_GeoTemplate",
+    "label": "Jugrafiya GeoTemplate",
+    "type": "widget",
+    "version": "1.0.0",
+    "exbVersion": "1.15.0",
+    "dependency": [
+      "jimu-arcgis"
+    ],
+    "author": "JUgrafiya, Aneeqa Abrar",
+    "description": "Add description",
+    "copyright": "",
+    "license": "",
+    "properties": {},
+    "translatedLocales": [
+      "en"
+    ],
+    "defaultSize": {
+      "width": 800,
+      "height": 500
+    }  
+  }

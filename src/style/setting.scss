@@ -1,0 +1,42 @@
+/* 
+ * ========================================================================
+ * Jugrafiya GeoTemplate - SCSS Styles
+ * 
+ * Author: Jugrafiya (https://jugrafiya.com)
+ Developed By: Aneeqa Abrar
+ * All rights reserved.
+ * 
+ * File: [setting.scss]
+ * Purpose: Contains styles for [settings customization].
+ * Notes: Unauthorized use or reproduction of this file is prohibited.
+ * ========================================================================
+ */
+
+ .widget-setting {
+    padding: 1rem;
+  
+    .setting-row {
+      display: flex;
+      flex-direction: column; /* Stack label and selector vertically */
+      gap: 0.5rem; /* Spacing between label and selector */
+      margin-bottom: 1rem;
+  
+      label {
+        font-size: 0.875rem;
+        color: #ffffff;
+        font-weight: bold;
+      }
+  
+      .map-widget-selector {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 0.875rem;
+  
+        &:focus-within {
+          border-color: #007ac2;
+          box-shadow: 0 0 0 2px rgba(0, 122, 194, 0.2);
+        }
+      }
+    }
+  }
